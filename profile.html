@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Card</title>
+    <style>
+        header{
+            text-align: center;
+            font-weight: bolder;
+        }
+        body{
+            background-color: rgb(164, 164, 161);
+            background-image: url(/IMAGES/profileimg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+
+
+            
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        
+        .profile-card{
+            text-align: center;
+            padding: 20px;
+    
+            border: 1px solid black;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(125, 125, 125, 0.1);
+            transition: transform 0.3s;
+
+        }
+        .user-name{
+            font-weight: bold;
+        }
+        .job-title{
+            margin: 5px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Well Come to my Profile</h1>
+    </header>
+    <div class="profile-card">
+        <img src="/IMAGES/profile.jpg" alt="User Image" class="profile-image">
+        <h2 class="user-name">Prajwal G</h2>
+        <p class="job-title">Web Developer</p>
+        <p class="bio">To work for an organization which provides the opportunity to improve my skills and knowledge to grow along with a
+            organization objective.</p>
+    </div>
+</body>
+</html>

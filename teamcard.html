@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Members</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .team-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .team-card {
+      width: 250px;
+      margin: 20px;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .team-card:hover {
+      transform: scale(1.05);
+    }
+
+    .team-member {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .team-member img {
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(181, 180, 180, 0.1);
+    }
+
+    .team-member h3 {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .team-member p {
+        text-align: center;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Team member cards
+        </h1>
+    </header>
+
+
+    <div class="team-container">
+
+        <div class="team-card">
+            <div class="team-member">
+                <img src="/IMAGES/profile.jpg" alt="Team Member 1">
+                <h3>Leo</h3>
+                <p>Full-Stack Developer</p>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-member">
+                <img src="/IMAGES/profileicon.jpg" alt="Team Member 2">
+                <h3>Sachin</h3>
+                <p>Back-end Developer</p>
+            </div>
+        </div>
+
+        
+        <div class="team-card">
+            <div class="team-member">
+                <img src="/IMAGES/profileicon1.jpg" alt="Team Member 3">
+                <h3>Virat</h3>
+                <p>Data Science</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

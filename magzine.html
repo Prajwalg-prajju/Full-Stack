@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magzine</title>
+    <style>
+        body{
+            background-color:black;
+        }
+        .grid-conatiner{
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: auto;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+    
+        }
+
+        header {
+            grid-column: span 3;
+            background-color: gray;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        .featured-article {
+            grid-column: span 2;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        article {
+            background-color: snow;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        aside {
+            background-color: rgb(245, 243, 243);
+            padding: 20px;
+        }       
+
+        footer {
+            grid-column:span 3;
+            background-color: darkgray;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        @media screen and (max-width: 768px) {
+        ul {
+            flex-direction: column;
+            text-align : center;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>Magzine</h1>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">content</a></li>
+                    <li><a href="">about</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="featured-article">
+                well-written: its prose is engaging and of a professional standard;
+                    comprehensive: it neglects no major facts or details and places the subject in context;
+                            well-researched: it is a thorough and representative survey of the relevant literature?
+
+            </section>
+            <section class="article-list">
+                <article>
+                    featured list candidates for usefulness, completeness, accuracy, neutrality, style and prose, according to our featured list
+                </article>
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, eveniet odio. Dolore aliquam, est iste, eos eum recusandae possimus quam quis repudiandae nisi doloremque. Unde quos magnam laborum itaque a ipsam minima obcaecati quibusdam, accusamus inventore dicta deleniti quas tempore in consectetur! Fugit est, enim temporibus accusamus voluptas exercitationem modi minima, in officiis quo ratione. Sit laborum earum minima magnam.
+                </article>
+
+            </section>
+        </main>
+        <aside>
+            <div class="sidebar">
+                Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum ipsam asperiores est ipsa debitis beatae, fuga ullam voluptas pariatur earum ipsum officia rem modi itaque iusto labore consequuntur. Quasi, fugiat.
+
+            </div>
+            <div class="sidebar">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugit dolorem optio asperiores provident neque perferendis pariatur deserunt amet eaque.
+
+
+            </div>
+
+        </aside>
+        <footer >
+            Thank you for visiting
+        </footer>
+    </div>
+</body>
+</html>

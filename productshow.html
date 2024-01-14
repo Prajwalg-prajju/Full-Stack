@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: darkgrey;
+    }
+
+    h1 {
+      text-align: center;
+      color: black;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: auto auto auto 400px;
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: whitesmoke;
+      border: 1px solid black;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-image {
+      width: 100%;
+      height: 210px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 15px;
+    }
+
+    .product-title {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    .product-description {
+      color: gray;
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      font-size: 16px;
+      color: red;
+    }
+    
+  </style>
+  <title>Product Showcase</title>
+</head>
+<body>
+
+
+  <h1>Product Showcase</h1>
+
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="/IMAGES/guard.jpg" alt="Product 1" class="product-image">
+      <div class="product-details">
+        <h2 class="product-title">Engine Gaurd</h2>
+        <p class="product-description">This is a Engine Protecter</p>
+        <p class="product-price">INR 1450</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="/IMAGES/adven.jpg" alt="Product 2" class="product-image">
+      <div class="product-details">
+        <h2 class="product-title">Hand Gaura</h2>
+        <p class="product-description">This is a Handguard protector</p>
+        <p class="product-price">INR 4300</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="/IMAGES/handle.jpg" alt="Product 2" class="product-image">
+      <div class="product-details">
+        <h2 class="product-title">Handle bar</h2>
+        <p class="product-description">This is a Handlebar for all bikes</p>
+        <p class="product-price">INR 1500</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="/IMAGES/master.jpg" alt="Product 2" class="product-image">
+      <div class="product-details">
+        <h2 class="product-title">Master Cylinder Guard</h2>
+        <p class="product-description">This is a Master Cylinder Gaurd avoids unwanted external damages and brake failure. </p>
+        <p class="product-price">INR 700</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

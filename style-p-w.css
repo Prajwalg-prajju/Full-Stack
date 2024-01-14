@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+body{
+    background: black;
+    color: white;
+    background-image: url(/IMAGES/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.container {
+    padding: 10px 10%;
+
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section{
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+} 
+h2 {
+    margin-bottom: 10px;
+}
+.project{
+    margin: 10px;
+}
+ul li{
+    padding-left: 10px;
+    background-position: fixed;
+}
+nav a:hover{
+    color: red;
+
+}
+nav{
+    cursor: pointer;
+}
+button{
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: gray;
+
+}
+#contact{
+    padding: 10px;
+    margin: 10px;
+
+}
+form label{
+    margin-top: 10px;
+}

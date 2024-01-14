@@ -1,0 +1,136 @@
+body{
+    background-color: #f1f3f6;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#nav1{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo_name{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(42,85,229);
+    font-weight: bold;
+}
+#input_data{
+    border: none;
+    width: 350px;
+    height: 20px;
+    padding-left: 12px;
+    background-color: #F0F5FF;
+}
+.navtab{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+#searchbar{
+    background-color: #F0F5FF;
+    padding: 4px;
+    border-radius: 10px;
+}
+#login{
+    margin: 0px 8px 0px 0px;
+    font-weight: 16px;
+    padding-left: 4px;
+    cursor: pointer;
+
+}
+#cart{
+    padding-left: 4px;
+    margin-right: 4px;
+
+}
+#seller{
+    padding-left: 4px;
+    cursor: pointer;
+}
+img{
+    padding: 4px;
+}
+.section-1 {
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 / 16%);
+
+}
+
+.section-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.section-1-item img{
+    width: 64px;
+    height: 64px;
+}
+
+.section-2-container{
+    margin-top: 16px;
+    height: 280px;
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/8d309aca8653215e.jpg?q=20');
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.section-3-list {
+    height: 100%;
+    width: calc(100% - 230px);
+    display: flex;
+    overflow-x: auto;
+}
+.section-3-item{
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3-item img{
+    max-width: 200px;
+    max-height: 200px;
+
+}
+.section-3-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.section-3-item-price{
+    margin-top: 12px;
+    font-size: 16px;
+}
+#caption {
+    font-weight: bold;
+    font-size: 30px;
+
+}
